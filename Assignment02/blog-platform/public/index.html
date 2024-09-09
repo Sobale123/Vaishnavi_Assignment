@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Blog Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Blog</h1>
+    </header>
+
+    <main>
+        <div class="blog-form">
+            <h2>Create/Edit Post</h2>
+            <input type="hidden" id="postId">
+            <input type="text" id="title" placeholder="Post Title">
+            <textarea id="content" placeholder="Write your post here..."></textarea>
+            <button id="submitBtn">Submit</button>
+        </div>
+        <div class="blog-list">
+            <h2>All Posts</h2>
+            <div id="posts"></div>
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
